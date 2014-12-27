@@ -12,7 +12,11 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+//    BOOL showHiddenFiles = [runCommand(@"defaults read com.apple.finder AppleShowAllFiles") boolValue];
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
 }
 
 NSString *runCommand(NSString *commandToRun)

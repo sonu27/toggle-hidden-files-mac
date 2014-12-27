@@ -464,6 +464,7 @@
 				398F89261893D75A00E32D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398F89271893D75A00E32D40 /* Build configuration list for PBXNativeTarget "Toggle Hidden FilesTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +473,7 @@
 				398F89291893D75A00E32D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
